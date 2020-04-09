@@ -36,7 +36,6 @@ NO)
 
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 //#import "FLBPlatform.h"
 //#import "FlutterBoost.h"
 
@@ -61,121 +60,5 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)sendJson:(id)dictionary;
 + (id)dictionaryWithJsonString:(NSString *)jsonString;
-+ (NSString *)getHomeStateStr:(int)code;
-+ (NSString *)getHomeOrderStateStr:(int)code;
-+ (NSString *)getHomeBannerVosStateStr:(int)code;
-+ (void)callPhone:(NSString *)phoneStr;
-//判断数字是否为空
-+ (BOOL)isEmpty:(UITextField *)textField;
-
-+ (NSArray *)optimalGPSPoint:(NSArray *)array;
-
-//获取本地轨迹
-+ (NSArray *)optimalGPSPoint:(NSArray *)array withtruckId:(NSString *)truckId;
-//计算直线距离
-+ (double)lineDistance:(NSDictionary *)firstPointDic withLast:(NSDictionary *)lastPointDic;
-
-+ (void)showHUB:(NSString *)str;
-+ (void)hideHUB;
-
-+ (void)showPostAlert:(NSString *)str;
-
-+ (void)showImage:(int)index wihtPhotoArr:(NSArray *)photoArr;
-
-//+ (void)showAlerView:(int(^)(void))hander withTitle:(NSString *)title;
-
-+ (void)showAlerViewTitle:(nullable NSString *)title messageStr:(nullable NSString *)mesStr messageType:(AlertType)alertType  selected:(void (^ __nullable)(int))handler;
-/**
- *  date 格式化为string
- *
- *  @param date    待转化的时间
- *  @param formate 转化格式
- *
- *  @return 转化后的字符串
- */
-+ (NSString*)stringFromFomate:(NSDate*)date formate:(NSString*)formate;
-//身份证号
-+ (BOOL)validateIdentityCard:(NSString *)identityCard;
-//银行卡判读
-+(BOOL)isBankNum:(NSString *)numStr;
-//手机号判断
-+(BOOL)Isphonenumber:(NSString *)str;
-//判断系统版本
-+ (BOOL)isiOS11;
-//判断系统版本
-+ (BOOL)isiOS12;
-
-/// 添加四边阴影效果
-+ (void)addShadowToView:(UIView *)theView;
-
-//从上到下渐变
-+ (void)addLayer:(UIView *)view;
-//从左到右渐变
-+ (void)addLandscapeLayer:(UIView *)view withColors:(NSArray *)colors;
-
-//照片加水印
-+(UIImage*)addImg:(UIImage *)img Txt:(NSString*)txt;
-+ (CGFloat)getNavHeight;
-+ (CGFloat)getTabbarHeight;
-+ (CGFloat)getTopStateHeight;
-+ (CGFloat)getNavViewHeight;
-+ (CGFloat)getBottomSafeHeigth;
-
-+ (void)setViewBorder:(UIView *)view color:(UIColor *)color border:(float)border type:(UIViewBorderLineType)borderLineType;
-+ (void)setViewBorder:(UIView *)view color:(UIColor *)color radius:(float)radius border:(float)border;
-//赋值
-+ (NSString *)clearNullStr:(id)str;
-//颜色图片
-+ (UIImage *)imageWithColor:(UIColor *)color;
-
-+ (CGRect)relativeFrameForScreenWithView:(UIView *)v;
-
-//导航
-+ (void)useMapAppNavigationToLocation:(CLLocation *)destinationLocation;
-
-//银行卡号分隔
-+ (NSString *)formatterBankCardNum:(NSString *)string;
-
-@end
-//
-//@interface DemoRouter : NSObject<FLBPlatform>
-//
-//    @property (nonatomic,strong) UINavigationController *navigationController;
-//
-//    //+ (DemoRouter *)sharedRouter;
-//
-//    @end
-//
-//
-//@implementation DemoRouter
-//
-//- (void)openPage:(NSString *)name
-//          params:(NSDictionary *)params
-//        animated:(BOOL)animated
-//      completion:(void (^)(BOOL))completion
-//    {
-//        if([params[@"present"] boolValue]){
-//            FLBFlutterViewContainer *vc = FLBFlutterViewContainer.new;
-//            [vc setName:name params:params];
-//            [self.navigationController presentViewController:vc animated:animated completion:^{}];
-//        }else{
-//            FLBFlutterViewContainer *vc = FLBFlutterViewContainer.new;
-//            [vc setName:name params:params];
-//            [self.navigationController pushViewController:vc animated:animated];
-//        }
-//    }
-//
-//
-//- (void)closePage:(NSString *)uid animated:(BOOL)animated params:(NSDictionary *)params completion:(void (^)(BOOL))completion
-//    {
-//        FLBFlutterViewContainer *vc = (id)self.navigationController.presentedViewController;
-//        if([vc isKindOfClass:FLBFlutterViewContainer.class] && [vc.uniqueIDString isEqual: uid]){
-//            [vc dismissViewControllerAnimated:animated completion:^{}];
-//        }else{
-//            [self.navigationController popViewControllerAnimated:animated];
-//        }
-//    }
-//
-//    @end
 
 NS_ASSUME_NONNULL_END
