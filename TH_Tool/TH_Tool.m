@@ -12,7 +12,6 @@
 
 //#import <UIKit/UIKit.h>
 
-static NSDateFormatter * _formatter = nil;
 @implementation TH_Tool
 
 //字典封装json

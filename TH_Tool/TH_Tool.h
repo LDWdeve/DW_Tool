@@ -60,5 +60,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)sendJson:(id)dictionary;
 + (id)dictionaryWithJsonString:(NSString *)jsonString;
+@end
 
 NS_ASSUME_NONNULL_END
