@@ -89,15 +89,15 @@ public extension Dictionary {
 }
 
 ///进入app设置界面
-public func openApplicationSettingUI(){
-
-    let url = URL.init(string: UIApplication.openSettingsURLString)
-
-    if UIApplication.shared.canOpenURL(url!) {
-        if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url!, options:[:], completionHandler: nil)
-        } else {
-            // Fallback on earlier versions
-        }
-    }
-}
+//public func openApplicationSettingUI(){
+//
+//    let url = URL.init(string: UIApplication.openSettingsURLString)
+//
+//    if UIApplication.shared.canOpenURL(url!) {
+//        if #available(iOS 10.0, *) {
+//            UIApplication.shared.open(url!, options:[:], completionHandler: nil)
+//        } else {
+//            // Fallback on earlier versions
+//        }
+//    }
+//}

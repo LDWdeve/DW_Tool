@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let str = ""
         str.getNumString()
 
-        openApplicationSettingUI()
+//        openApplicationSettingUI()
 
 
 
