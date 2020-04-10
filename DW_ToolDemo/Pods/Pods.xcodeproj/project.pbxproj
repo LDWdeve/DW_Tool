@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		03790EA69A00F5259A5194583086C17A /* DW_Tool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 567FB9FF4AD7E420FC7A5396B313ADD9 /* DW_Tool-dummy.m */; };
 		628DE8D90C95CE793E2F19F0A5539A6B /* DW_Tool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CA550EFD56B61A7A7126F2A878B600 /* DW_Tool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63EAA5DE117A9C11235939B881FA6B77 /* TH_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DEB913314CB5A2146D3CB0638F9F1C /* TH_Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EAA5DE117A9C11235939B881FA6B77 /* DW_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DEB913314CB5A2146D3CB0638F9F1C /* DW_Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		693EA0B52E615C9B8136E1D5D3F97981 /* Pods-DW_ToolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8992776A9C73780857DB3E5C5CEA564 /* Pods-DW_ToolDemo-dummy.m */; };
 		77391B2A1890CAC6ECD0AEC988EFF631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		7BC9ED461AECE3AEBE4642756640FB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		82AD8110899A0F54DFCD67A155C26E8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		9039DEAACD44E0EB4195C89838DDEC03 /* DW_OriginTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B689F7C741BEC1B18FB76AF1AFE01BE /* DW_OriginTool.swift */; };
-		D0EF657726D0C0793E11015BB641DE18 /* TH_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08127B762A6E034FA027F42F440E02B6 /* TH_Tool.m */; };
+		B611ABA1244049B500C227BB /* DW_BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611ABA0244049B500C227BB /* DW_BaseExtension.swift */; };
+		D0EF657726D0C0793E11015BB641DE18 /* DW_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08127B762A6E034FA027F42F440E02B6 /* DW_Tool.m */; };
 		DF6914EF1714D7F4CE122C9C1875B672 /* Pods-DW_ToolDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06597C95A87B60A908E6A62BA0FFAD06 /* Pods-DW_ToolDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,21 +33,22 @@
 /* Begin PBXFileReference section */
 		005676CADB91AB7A263D83F0A09FE6C9 /* DW_Tool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DW_Tool.modulemap; sourceTree = "<group>"; };
 		06597C95A87B60A908E6A62BA0FFAD06 /* Pods-DW_ToolDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DW_ToolDemo-umbrella.h"; sourceTree = "<group>"; };
-		08127B762A6E034FA027F42F440E02B6 /* TH_Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TH_Tool.m; path = DW_Tool/TH_Tool.m; sourceTree = "<group>"; };
-		0D54D160FD1C9EF21F4C8E1F290DA241 /* Pods_DW_ToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DW_ToolDemo.framework; path = "Pods-DW_ToolDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E03F378782CA999859DC6DEB3D0D941 /* DW_Tool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DW_Tool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08127B762A6E034FA027F42F440E02B6 /* DW_Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DW_Tool.m; path = DW_Tool/DW_Tool.m; sourceTree = "<group>"; };
+		0D54D160FD1C9EF21F4C8E1F290DA241 /* Pods_DW_ToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DW_ToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E03F378782CA999859DC6DEB3D0D941 /* DW_Tool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DW_Tool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		36FBDA46D260AE8D14B2528ECDB8186C /* DW_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DW_Tool.framework; path = DW_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBDA46D260AE8D14B2528ECDB8186C /* DW_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DW_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		468157C5B50D191CD22CC0AF9F6F20C5 /* DW_Tool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DW_Tool-Info.plist"; sourceTree = "<group>"; };
 		567FB9FF4AD7E420FC7A5396B313ADD9 /* DW_Tool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DW_Tool-dummy.m"; sourceTree = "<group>"; };
 		5E88F92C4E3EDA1BBAE6D9C282737ED9 /* Pods-DW_ToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DW_ToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		62CA550EFD56B61A7A7126F2A878B600 /* DW_Tool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DW_Tool-umbrella.h"; sourceTree = "<group>"; };
 		6B689F7C741BEC1B18FB76AF1AFE01BE /* DW_OriginTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DW_OriginTool.swift; path = DW_Tool/DW_OriginTool.swift; sourceTree = "<group>"; };
-		88DEB913314CB5A2146D3CB0638F9F1C /* TH_Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TH_Tool.h; path = DW_Tool/TH_Tool.h; sourceTree = "<group>"; };
+		88DEB913314CB5A2146D3CB0638F9F1C /* DW_Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DW_Tool.h; path = DW_Tool/DW_Tool.h; sourceTree = "<group>"; };
 		897FE438FD1EC64061194188445EB5CC /* Pods-DW_ToolDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DW_ToolDemo.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1DB5E20694DD0D15D1EB22CC0AE7437 /* Pods-DW_ToolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DW_ToolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B611ABA0244049B500C227BB /* DW_BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_BaseExtension.swift; sourceTree = "<group>"; };
 		B781419B5E53E303FAD500C58691FA51 /* DW_Tool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DW_Tool.xcconfig; sourceTree = "<group>"; };
 		C5186DF185A95906520AE054354C787F /* Pods-DW_ToolDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DW_ToolDemo-frameworks.sh"; sourceTree = "<group>"; };
 		C6030B17F03049E24717BCB7B1586E17 /* DW_Tool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DW_Tool-prefix.pch"; sourceTree = "<group>"; };
@@ -89,8 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				6B689F7C741BEC1B18FB76AF1AFE01BE /* DW_OriginTool.swift */,
-				88DEB913314CB5A2146D3CB0638F9F1C /* TH_Tool.h */,
-				08127B762A6E034FA027F42F440E02B6 /* TH_Tool.m */,
+				B611ABA0244049B500C227BB /* DW_BaseExtension.swift */,
+				88DEB913314CB5A2146D3CB0638F9F1C /* DW_Tool.h */,
+				08127B762A6E034FA027F42F440E02B6 /* DW_Tool.m */,
 				8D30BDB4B0F199D4E9B2789FC4C59C50 /* Pod */,
 				C84FE828008E3621A573E1756CFE125F /* Support Files */,
 			);
@@ -198,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				628DE8D90C95CE793E2F19F0A5539A6B /* DW_Tool-umbrella.h in Headers */,
-				63EAA5DE117A9C11235939B881FA6B77 /* TH_Tool.h in Headers */,
+				63EAA5DE117A9C11235939B881FA6B77 /* DW_Tool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +305,8 @@
 			files = (
 				9039DEAACD44E0EB4195C89838DDEC03 /* DW_OriginTool.swift in Sources */,
 				03790EA69A00F5259A5194583086C17A /* DW_Tool-dummy.m in Sources */,
-				D0EF657726D0C0793E11015BB641DE18 /* TH_Tool.m in Sources */,
+				D0EF657726D0C0793E11015BB641DE18 /* DW_Tool.m in Sources */,
+				B611ABA1244049B500C227BB /* DW_BaseExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

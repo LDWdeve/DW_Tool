@@ -22,6 +22,11 @@ class ViewController: UIViewController {
         let button = UIButton()
         let btnStr = button.DW_text
 
+        let str = ""
+        str.getNumString()
+
+        openApplicationSettingUI()
+
 
 
     }

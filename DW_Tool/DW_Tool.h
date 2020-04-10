@@ -57,7 +57,7 @@ typedef NS_ENUM(NSInteger, UIViewBorderLineType) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TH_Tool : NSObject
+@interface DW_Tool : NSObject
 
 + (NSString *)sendJson:(id)dictionary;
 + (id)dictionaryWithJsonString:(NSString *)jsonString;

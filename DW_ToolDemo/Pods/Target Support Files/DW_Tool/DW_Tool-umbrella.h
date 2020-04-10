@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "TH_Tool.h"
+#import "DW_Tool.h"
 
 FOUNDATION_EXPORT double DW_ToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char DW_ToolVersionString[];

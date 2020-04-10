@@ -7,7 +7,7 @@
 //
 
 //#import <Foundation/Foundation.h>
-#import "TH_Tool.h"
+#import "DW_Tool.h"
 
 //#import "TKAlertCenter.h"
 //#import "MBProgressHUD.h"
@@ -18,7 +18,7 @@
 //#import <UIKit/UIKit.h>
 
 static NSDateFormatter * _formatter = nil;
-@implementation TH_Tool
+@implementation DW_Tool
 
 //字典封装json
 + (NSString *)sendJson:(id)dictionary
