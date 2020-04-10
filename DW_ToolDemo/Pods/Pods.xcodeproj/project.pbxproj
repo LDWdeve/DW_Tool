@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03790EA69A00F5259A5194583086C17A /* DW_Tool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 567FB9FF4AD7E420FC7A5396B313ADD9 /* DW_Tool-dummy.m */; };
-		628DE8D90C95CE793E2F19F0A5539A6B /* DW_Tool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CA550EFD56B61A7A7126F2A878B600 /* DW_Tool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63EAA5DE117A9C11235939B881FA6B77 /* DW_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DEB913314CB5A2146D3CB0638F9F1C /* DW_Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17390A099B0C941740AAA39CF00598F0 /* DW_Tool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC660354F24EB7008228175EFB55FE3 /* DW_Tool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A1BFA148FFD9DB2CFDB8E06921CB36E /* DW_Tool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A16B3C3B63E3995440F6135242093724 /* DW_Tool-dummy.m */; };
+		489CCB09A9B4B1FAF24D4A4F014DE0DF /* DW_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD1FE843DB7C1B7F7420E66487371B6 /* DW_Tool.m */; };
+		49C267ADE23832EA96DD6BC86796C278 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		67A3E44DDB2E4D9DADA07013F5B3FBBB /* DW_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 67328FC30BD80C3B378B43372FDDFEE2 /* DW_Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		693EA0B52E615C9B8136E1D5D3F97981 /* Pods-DW_ToolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8992776A9C73780857DB3E5C5CEA564 /* Pods-DW_ToolDemo-dummy.m */; };
 		77391B2A1890CAC6ECD0AEC988EFF631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		7BC9ED461AECE3AEBE4642756640FB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		82AD8110899A0F54DFCD67A155C26E8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		9039DEAACD44E0EB4195C89838DDEC03 /* DW_OriginTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B689F7C741BEC1B18FB76AF1AFE01BE /* DW_OriginTool.swift */; };
-		B611ABA1244049B500C227BB /* DW_BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611ABA0244049B500C227BB /* DW_BaseExtension.swift */; };
-		D0EF657726D0C0793E11015BB641DE18 /* DW_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08127B762A6E034FA027F42F440E02B6 /* DW_Tool.m */; };
+		774FC64EAC8648180DB5DF8F46813C05 /* DW_BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBD25133E4DB5472A58AA5B35B9DB9 /* DW_BaseExtension.swift */; };
 		DF6914EF1714D7F4CE122C9C1875B672 /* Pods-DW_ToolDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06597C95A87B60A908E6A62BA0FFAD06 /* Pods-DW_ToolDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F51289D3658BBE4BB67544CBC347E1 /* DW_OriginTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976944A955387D87C7184F7BAD2591CC /* DW_OriginTool.swift */; };
+		FBCE02E34567DF61A35D73F5AC2F2D0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,31 +31,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005676CADB91AB7A263D83F0A09FE6C9 /* DW_Tool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DW_Tool.modulemap; sourceTree = "<group>"; };
+		01BBF1D9937B8AABEAE43543C143675F /* DW_Tool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DW_Tool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		06597C95A87B60A908E6A62BA0FFAD06 /* Pods-DW_ToolDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DW_ToolDemo-umbrella.h"; sourceTree = "<group>"; };
-		08127B762A6E034FA027F42F440E02B6 /* DW_Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DW_Tool.m; path = DW_Tool/DW_Tool.m; sourceTree = "<group>"; };
-		0D54D160FD1C9EF21F4C8E1F290DA241 /* Pods_DW_ToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DW_ToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E03F378782CA999859DC6DEB3D0D941 /* DW_Tool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DW_Tool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0D54D160FD1C9EF21F4C8E1F290DA241 /* Pods_DW_ToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DW_ToolDemo.framework; path = "Pods-DW_ToolDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC660354F24EB7008228175EFB55FE3 /* DW_Tool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DW_Tool-umbrella.h"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		36FBDA46D260AE8D14B2528ECDB8186C /* DW_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DW_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBDA46D260AE8D14B2528ECDB8186C /* DW_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DW_Tool.framework; path = DW_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		468157C5B50D191CD22CC0AF9F6F20C5 /* DW_Tool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DW_Tool-Info.plist"; sourceTree = "<group>"; };
-		567FB9FF4AD7E420FC7A5396B313ADD9 /* DW_Tool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DW_Tool-dummy.m"; sourceTree = "<group>"; };
+		4749C48A4D9E28244112F2831B2800A6 /* DW_Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DW_Tool.release.xcconfig; sourceTree = "<group>"; };
+		47BBD25133E4DB5472A58AA5B35B9DB9 /* DW_BaseExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DW_BaseExtension.swift; path = DW_Tool/DW_BaseExtension.swift; sourceTree = "<group>"; };
+		5883EC04912D1A9B96E6AD0E8F01218B /* DW_Tool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DW_Tool-Info.plist"; sourceTree = "<group>"; };
 		5E88F92C4E3EDA1BBAE6D9C282737ED9 /* Pods-DW_ToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DW_ToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		62CA550EFD56B61A7A7126F2A878B600 /* DW_Tool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DW_Tool-umbrella.h"; sourceTree = "<group>"; };
-		6B689F7C741BEC1B18FB76AF1AFE01BE /* DW_OriginTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DW_OriginTool.swift; path = DW_Tool/DW_OriginTool.swift; sourceTree = "<group>"; };
-		88DEB913314CB5A2146D3CB0638F9F1C /* DW_Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DW_Tool.h; path = DW_Tool/DW_Tool.h; sourceTree = "<group>"; };
+		5EBB6094138448BD896CA030C19B995D /* DW_Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DW_Tool.debug.xcconfig; sourceTree = "<group>"; };
+		67328FC30BD80C3B378B43372FDDFEE2 /* DW_Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DW_Tool.h; path = DW_Tool/DW_Tool.h; sourceTree = "<group>"; };
+		677F8AE9219C6DA8CE577BBB645EF576 /* DW_Tool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DW_Tool-prefix.pch"; sourceTree = "<group>"; };
 		897FE438FD1EC64061194188445EB5CC /* Pods-DW_ToolDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DW_ToolDemo.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		976944A955387D87C7184F7BAD2591CC /* DW_OriginTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DW_OriginTool.swift; path = DW_Tool/DW_OriginTool.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A16B3C3B63E3995440F6135242093724 /* DW_Tool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DW_Tool-dummy.m"; sourceTree = "<group>"; };
+		ADD1FE843DB7C1B7F7420E66487371B6 /* DW_Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DW_Tool.m; path = DW_Tool/DW_Tool.m; sourceTree = "<group>"; };
 		B1DB5E20694DD0D15D1EB22CC0AE7437 /* Pods-DW_ToolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DW_ToolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B611ABA0244049B500C227BB /* DW_BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_BaseExtension.swift; sourceTree = "<group>"; };
-		B781419B5E53E303FAD500C58691FA51 /* DW_Tool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DW_Tool.xcconfig; sourceTree = "<group>"; };
 		C5186DF185A95906520AE054354C787F /* Pods-DW_ToolDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DW_ToolDemo-frameworks.sh"; sourceTree = "<group>"; };
-		C6030B17F03049E24717BCB7B1586E17 /* DW_Tool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DW_Tool-prefix.pch"; sourceTree = "<group>"; };
 		D2768F752D7EE7F805D2F3707B235E10 /* Pods-DW_ToolDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DW_ToolDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5ED3657CF11A15441848FA91D83A70A /* Pods-DW_ToolDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DW_ToolDemo-Info.plist"; sourceTree = "<group>"; };
 		D8992776A9C73780857DB3E5C5CEA564 /* Pods-DW_ToolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DW_ToolDemo-dummy.m"; sourceTree = "<group>"; };
 		E4D58434EF4213FC3377A60EEAABE6AD /* Pods-DW_ToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DW_ToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD8C21C97DC346C2EF4A433BE8C5FACA /* DW_Tool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DW_Tool.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,46 +68,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B12C96CBE890CD61C5809D28870287BD /* Frameworks */ = {
+		E52C560CCF94DF0C64C6F71AD1609BF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC9ED461AECE3AEBE4642756640FB2A /* Foundation.framework in Frameworks */,
-				82AD8110899A0F54DFCD67A155C26E8A /* UIKit.framework in Frameworks */,
+				FBCE02E34567DF61A35D73F5AC2F2D0D /* Foundation.framework in Frameworks */,
+				49C267ADE23832EA96DD6BC86796C278 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0551681E64BD13D772A9A2A282F57124 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C21C97DC346C2EF4A433BE8C5FACA /* DW_Tool.modulemap */,
+				A16B3C3B63E3995440F6135242093724 /* DW_Tool-dummy.m */,
+				5883EC04912D1A9B96E6AD0E8F01218B /* DW_Tool-Info.plist */,
+				677F8AE9219C6DA8CE577BBB645EF576 /* DW_Tool-prefix.pch */,
+				1EC660354F24EB7008228175EFB55FE3 /* DW_Tool-umbrella.h */,
+				5EBB6094138448BD896CA030C19B995D /* DW_Tool.debug.xcconfig */,
+				4749C48A4D9E28244112F2831B2800A6 /* DW_Tool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "DW_ToolDemo/Pods/Target Support Files/DW_Tool";
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		24AAC9D5BFBE52BCD242C78A557734FD /* DW_Tool */ = {
-			isa = PBXGroup;
-			children = (
-				6B689F7C741BEC1B18FB76AF1AFE01BE /* DW_OriginTool.swift */,
-				B611ABA0244049B500C227BB /* DW_BaseExtension.swift */,
-				88DEB913314CB5A2146D3CB0638F9F1C /* DW_Tool.h */,
-				08127B762A6E034FA027F42F440E02B6 /* DW_Tool.m */,
-				8D30BDB4B0F199D4E9B2789FC4C59C50 /* Pod */,
-				C84FE828008E3621A573E1756CFE125F /* Support Files */,
-			);
-			name = DW_Tool;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		25B141E3304EE55D4DDECFC322EED332 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				24AAC9D5BFBE52BCD242C78A557734FD /* DW_Tool */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		388F3F986C90BA408E1FCEEB7C958335 /* Targets Support Files */ = {
@@ -117,12 +111,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8D30BDB4B0F199D4E9B2789FC4C59C50 /* Pod */ = {
+		57373C4F1E8CDBFB92DE0A4EDCF645E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0E03F378782CA999859DC6DEB3D0D941 /* DW_Tool.podspec */,
+				01BBF1D9937B8AABEAE43543C143675F /* DW_Tool.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		8886F2E1D40FDD4AED0A60DFC127733A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D31644082B3E345CDE46EACAB760A5 /* DW_Tool */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C50DFA87D6A349F096811328296686C8 /* Products */ = {
@@ -134,25 +136,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C84FE828008E3621A573E1756CFE125F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				005676CADB91AB7A263D83F0A09FE6C9 /* DW_Tool.modulemap */,
-				B781419B5E53E303FAD500C58691FA51 /* DW_Tool.xcconfig */,
-				567FB9FF4AD7E420FC7A5396B313ADD9 /* DW_Tool-dummy.m */,
-				468157C5B50D191CD22CC0AF9F6F20C5 /* DW_Tool-Info.plist */,
-				C6030B17F03049E24717BCB7B1586E17 /* DW_Tool-prefix.pch */,
-				62CA550EFD56B61A7A7126F2A878B600 /* DW_Tool-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "DW_ToolDemo/Pods/Target Support Files/DW_Tool";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				25B141E3304EE55D4DDECFC322EED332 /* Development Pods */,
+				8886F2E1D40FDD4AED0A60DFC127733A /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				C50DFA87D6A349F096811328296686C8 /* Products */,
 				388F3F986C90BA408E1FCEEB7C958335 /* Targets Support Files */,
@@ -185,6 +173,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F9D31644082B3E345CDE46EACAB760A5 /* DW_Tool */ = {
+			isa = PBXGroup;
+			children = (
+				47BBD25133E4DB5472A58AA5B35B9DB9 /* DW_BaseExtension.swift */,
+				976944A955387D87C7184F7BAD2591CC /* DW_OriginTool.swift */,
+				67328FC30BD80C3B378B43372FDDFEE2 /* DW_Tool.h */,
+				ADD1FE843DB7C1B7F7420E66487371B6 /* DW_Tool.m */,
+				57373C4F1E8CDBFB92DE0A4EDCF645E0 /* Pod */,
+				0551681E64BD13D772A9A2A282F57124 /* Support Files */,
+			);
+			name = DW_Tool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -196,12 +198,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BD6BDC4B584FB2377D99417AF7430A3 /* Headers */ = {
+		EDFCBD40498DCB1EA71A8294527E97EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628DE8D90C95CE793E2F19F0A5539A6B /* DW_Tool-umbrella.h in Headers */,
-				63EAA5DE117A9C11235939B881FA6B77 /* DW_Tool.h in Headers */,
+				17390A099B0C941740AAA39CF00598F0 /* DW_Tool-umbrella.h in Headers */,
+				67A3E44DDB2E4D9DADA07013F5B3FBBB /* DW_Tool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,12 +231,12 @@
 		};
 		EE9918F92EA9E870B34836CE43709B68 /* DW_Tool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4434B44DD0BF152273B6E2C9D08DEC43 /* Build configuration list for PBXNativeTarget "DW_Tool" */;
+			buildConfigurationList = 1C8EAE050FAB13BD1259ABA791FFEF18 /* Build configuration list for PBXNativeTarget "DW_Tool" */;
 			buildPhases = (
-				1BD6BDC4B584FB2377D99417AF7430A3 /* Headers */,
-				E0FFA356D89151657FE69E7B754FF8AD /* Sources */,
-				B12C96CBE890CD61C5809D28870287BD /* Frameworks */,
-				BD2BE29A2A7A85BAA8F971536D2A5211 /* Resources */,
+				EDFCBD40498DCB1EA71A8294527E97EC /* Headers */,
+				603EA6EAB12897C1BC4872F66CF4ED70 /* Sources */,
+				E52C560CCF94DF0C64C6F71AD1609BF8 /* Frameworks */,
+				724E47993E5EF2A38BD05BF0A071066B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -281,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD2BE29A2A7A85BAA8F971536D2A5211 /* Resources */ = {
+		724E47993E5EF2A38BD05BF0A071066B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,22 +293,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		603EA6EAB12897C1BC4872F66CF4ED70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774FC64EAC8648180DB5DF8F46813C05 /* DW_BaseExtension.swift in Sources */,
+				E4F51289D3658BBE4BB67544CBC347E1 /* DW_OriginTool.swift in Sources */,
+				1A1BFA148FFD9DB2CFDB8E06921CB36E /* DW_Tool-dummy.m in Sources */,
+				489CCB09A9B4B1FAF24D4A4F014DE0DF /* DW_Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2B84438C9DF55693193DCA9F433B2A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				693EA0B52E615C9B8136E1D5D3F97981 /* Pods-DW_ToolDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0FFA356D89151657FE69E7B754FF8AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9039DEAACD44E0EB4195C89838DDEC03 /* DW_OriginTool.swift in Sources */,
-				03790EA69A00F5259A5194583086C17A /* DW_Tool-dummy.m in Sources */,
-				D0EF657726D0C0793E11015BB641DE18 /* DW_Tool.m in Sources */,
-				B611ABA1244049B500C227BB /* DW_BaseExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +398,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7055EB2CF5DE66B247CCF0DCB21BE44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4749C48A4D9E28244112F2831B2800A6 /* DW_Tool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DW_Tool/DW_Tool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DW_Tool/DW_Tool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DW_Tool/DW_Tool.modulemap";
+				PRODUCT_MODULE_NAME = DW_Tool;
+				PRODUCT_NAME = DW_Tool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -521,9 +559,9 @@
 			};
 			name = Debug;
 		};
-		9D3FD1AB1BB36F9ED81401A390C412AD /* Debug */ = {
+		BE2D33A1891BD79125E88EE539650CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B781419B5E53E303FAD500C58691FA51 /* DW_Tool.xcconfig */;
+			baseConfigurationReference = 5EBB6094138448BD896CA030C19B995D /* DW_Tool.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -556,50 +594,14 @@
 			};
 			name = Debug;
 		};
-		B1F16ECB5BCECACDA7A8B58F305172E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B781419B5E53E303FAD500C58691FA51 /* DW_Tool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DW_Tool/DW_Tool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DW_Tool/DW_Tool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DW_Tool/DW_Tool.modulemap";
-				PRODUCT_MODULE_NAME = DW_Tool;
-				PRODUCT_NAME = DW_Tool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4434B44DD0BF152273B6E2C9D08DEC43 /* Build configuration list for PBXNativeTarget "DW_Tool" */ = {
+		1C8EAE050FAB13BD1259ABA791FFEF18 /* Build configuration list for PBXNativeTarget "DW_Tool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D3FD1AB1BB36F9ED81401A390C412AD /* Debug */,
-				B1F16ECB5BCECACDA7A8B58F305172E4 /* Release */,
+				BE2D33A1891BD79125E88EE539650CEA /* Debug */,
+				7055EB2CF5DE66B247CCF0DCB21BE44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
