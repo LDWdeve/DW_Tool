@@ -16,15 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DW_Tool"
-  spec.version      = "0.0.4"
-  spec.summary      = "DW_Tool"
+  spec.version      = "0.0.5"
+  spec.summary      = "DW_Toolaquicklygettext"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "DW_Tool能快速获取UI控件text属性"
+  spec.description  = "DW_Toolaquicklygettext能快速获取UI控件text属性"
 
   spec.homepage     = "https://github.com/LDWdeve/DW_Tool"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TH_Tool", "TH_Tool/**/*.{h,m,swift}"
+  spec.source_files  = "DW_Tool", "DW_Tool/**/*.{h,m,swift}"
  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

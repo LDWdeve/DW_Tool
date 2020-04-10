@@ -6,12 +6,18 @@
 //  Copyright © 2019 泰和天润. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 #import "TH_Tool.h"
 
+//#import "TKAlertCenter.h"
+//#import "MBProgressHUD.h"
+//#import <YBImageBrowser/YBImageBrowser.h>
+//#import "HTPasswordShowView.h"
+//#import "HTInputPasswordView.h"
 
 //#import <UIKit/UIKit.h>
 
+static NSDateFormatter * _formatter = nil;
 @implementation TH_Tool
 
 //字典封装json
@@ -43,5 +49,6 @@
     }
     return dic;
 }
+
 
 @end

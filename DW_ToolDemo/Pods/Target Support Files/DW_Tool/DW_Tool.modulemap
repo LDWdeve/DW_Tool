@@ -1,0 +1,6 @@
+framework module DW_Tool {
+  umbrella header "DW_Tool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -11,7 +11,7 @@
 import UIKit
 
 ///
-protocol NoNilStringType {
+public protocol NoNilStringType {
 //    associatedtype E
     func noNilText() -> String
     var DW_text:String{ get }
@@ -19,7 +19,7 @@ protocol NoNilStringType {
 
 extension NoNilStringType where Self : UITextField {
 
-    func noNilText() -> String {
+    public func noNilText() -> String {
         guard let string = self.text else {
 
             return ""
@@ -30,7 +30,7 @@ extension NoNilStringType where Self : UITextField {
 
 extension NoNilStringType where Self : UITextView {
 
-    func noNilText() -> String {
+    public func noNilText() -> String {
         guard let string = self.text else {
 
             return ""
@@ -41,7 +41,7 @@ extension NoNilStringType where Self : UITextView {
 
 extension NoNilStringType where Self : UIButton {
 
-    func noNilText() -> String {
+    public func noNilText() -> String {
         guard let string = self.currentTitle else {
 
             return ""
@@ -51,7 +51,7 @@ extension NoNilStringType where Self : UIButton {
 }
 
 extension UITextField:NoNilStringType{
-    var DW_text: String {
+    public var DW_text: String {
         get {
             self.noNilText()
         }
@@ -59,7 +59,7 @@ extension UITextField:NoNilStringType{
 }
 
 extension UITextView:NoNilStringType{
-    var DW_text: String {
+    public var DW_text: String {
         get {
             self.noNilText()
         }
@@ -67,7 +67,7 @@ extension UITextView:NoNilStringType{
 }
 
 extension UIButton:NoNilStringType{
-    var DW_text: String {
+    public var DW_text: String {
         get {
             self.noNilText()
         }

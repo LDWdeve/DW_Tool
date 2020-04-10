@@ -1,0 +1,16 @@
+PODS:
+  - DW_Tool (0.0.4)
+
+DEPENDENCIES:
+  - DW_Tool (from `../`)
+
+EXTERNAL SOURCES:
+  DW_Tool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DW_Tool: ac8b0f75a36130df12a7f775854a94f0a7b4c4e8
+
+PODFILE CHECKSUM: 5bd28a179e94d1d758df3d60ea4d802df39dfcac
+
+COCOAPODS: 1.7.2

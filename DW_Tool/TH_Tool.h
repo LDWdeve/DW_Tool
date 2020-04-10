@@ -36,6 +36,7 @@ NO)
 
 
 #import <UIKit/UIKit.h>
+
 //#import "FLBPlatform.h"
 //#import "FlutterBoost.h"
 
@@ -60,6 +61,48 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)sendJson:(id)dictionary;
 + (id)dictionaryWithJsonString:(NSString *)jsonString;
+
+
 @end
+//
+//@interface DemoRouter : NSObject<FLBPlatform>
+//
+//    @property (nonatomic,strong) UINavigationController *navigationController;
+//
+//    //+ (DemoRouter *)sharedRouter;
+//
+//    @end
+//
+//
+//@implementation DemoRouter
+//
+//- (void)openPage:(NSString *)name
+//          params:(NSDictionary *)params
+//        animated:(BOOL)animated
+//      completion:(void (^)(BOOL))completion
+//    {
+//        if([params[@"present"] boolValue]){
+//            FLBFlutterViewContainer *vc = FLBFlutterViewContainer.new;
+//            [vc setName:name params:params];
+//            [self.navigationController presentViewController:vc animated:animated completion:^{}];
+//        }else{
+//            FLBFlutterViewContainer *vc = FLBFlutterViewContainer.new;
+//            [vc setName:name params:params];
+//            [self.navigationController pushViewController:vc animated:animated];
+//        }
+//    }
+//
+//
+//- (void)closePage:(NSString *)uid animated:(BOOL)animated params:(NSDictionary *)params completion:(void (^)(BOOL))completion
+//    {
+//        FLBFlutterViewContainer *vc = (id)self.navigationController.presentedViewController;
+//        if([vc isKindOfClass:FLBFlutterViewContainer.class] && [vc.uniqueIDString isEqual: uid]){
+//            [vc dismissViewControllerAnimated:animated completion:^{}];
+//        }else{
+//            [self.navigationController popViewControllerAnimated:animated];
+//        }
+//    }
+//
+//    @end
 
 NS_ASSUME_NONNULL_END

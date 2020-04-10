@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DW_Tool
 
 class ViewController: UIViewController {
 
@@ -16,10 +17,12 @@ class ViewController: UIViewController {
         let textF = UITextField()
         let string = textF.DW_text
 
+        print(string)
+
         let button = UIButton()
         let btnStr = button.DW_text
 
-        
+
 
     }
 

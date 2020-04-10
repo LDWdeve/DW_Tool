@@ -13,11 +13,11 @@
 		B611AB88243FFEDC00C227BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B611AB86243FFEDC00C227BB /* Main.storyboard */; };
 		B611AB8A243FFEDD00C227BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B611AB89243FFEDD00C227BB /* Assets.xcassets */; };
 		B611AB8D243FFEDD00C227BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B611AB8B243FFEDD00C227BB /* LaunchScreen.storyboard */; };
-		B611AB97243FFEF800C227BB /* TH_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B611AB95243FFEF800C227BB /* TH_Tool.m */; };
-		B611AB99243FFF1E00C227BB /* DW_OriginTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611AB98243FFF1E00C227BB /* DW_OriginTool.swift */; };
+		DDF9A7389A9DA2C1544077BB /* Pods_DW_ToolDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE9C6748AE3B2446D9A55E2 /* Pods_DW_ToolDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EBDB26CCA61A067BCCA29BC /* Pods-DW_ToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DW_ToolDemo.release.xcconfig"; path = "Target Support Files/Pods-DW_ToolDemo/Pods-DW_ToolDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B611AB7D243FFEDC00C227BB /* DW_ToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DW_ToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B611AB80243FFEDC00C227BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B611AB82243FFEDC00C227BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,9 +26,8 @@
 		B611AB89243FFEDD00C227BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B611AB8C243FFEDD00C227BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B611AB8E243FFEDD00C227BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B611AB95243FFEF800C227BB /* TH_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TH_Tool.m; sourceTree = "<group>"; };
-		B611AB96243FFEF800C227BB /* TH_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TH_Tool.h; sourceTree = "<group>"; };
-		B611AB98243FFF1E00C227BB /* DW_OriginTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_OriginTool.swift; sourceTree = "<group>"; };
+		BFE9C6748AE3B2446D9A55E2 /* Pods_DW_ToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DW_ToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8B806694EDCC94C08E3455 /* Pods-DW_ToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DW_ToolDemo.debug.xcconfig"; path = "Target Support Files/Pods-DW_ToolDemo/Pods-DW_ToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF9A7389A9DA2C1544077BB /* Pods_DW_ToolDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02FE590ECD086C39BA5A5CD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B806694EDCC94C08E3455 /* Pods-DW_ToolDemo.debug.xcconfig */,
+				4EBDB26CCA61A067BCCA29BC /* Pods-DW_ToolDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		622F5B4AAD321EF8AF4A08BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9C6748AE3B2446D9A55E2 /* Pods_DW_ToolDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B611AB74243FFEDC00C227BB = {
 			isa = PBXGroup;
 			children = (
 				B611AB7F243FFEDC00C227BB /* DW_ToolDemo */,
 				B611AB7E243FFEDC00C227BB /* Products */,
+				02FE590ECD086C39BA5A5CD1 /* Pods */,
+				622F5B4AAD321EF8AF4A08BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +81,6 @@
 		B611AB7F243FFEDC00C227BB /* DW_ToolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B611AB94243FFEF800C227BB /* TH_Tool */,
 				B611AB80243FFEDC00C227BB /* AppDelegate.swift */,
 				B611AB82243FFEDC00C227BB /* SceneDelegate.swift */,
 				B611AB84243FFEDC00C227BB /* ViewController.swift */,
@@ -73,17 +92,6 @@
 			path = DW_ToolDemo;
 			sourceTree = "<group>";
 		};
-		B611AB94243FFEF800C227BB /* TH_Tool */ = {
-			isa = PBXGroup;
-			children = (
-				B611AB95243FFEF800C227BB /* TH_Tool.m */,
-				B611AB96243FFEF800C227BB /* TH_Tool.h */,
-				B611AB98243FFF1E00C227BB /* DW_OriginTool.swift */,
-			);
-			name = TH_Tool;
-			path = ../../TH_Tool;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B611AB91243FFEDD00C227BB /* Build configuration list for PBXNativeTarget "DW_ToolDemo" */;
 			buildPhases = (
+				A908D98D60068C8B6DF4018A /* [CP] Check Pods Manifest.lock */,
 				B611AB79243FFEDC00C227BB /* Sources */,
 				B611AB7A243FFEDC00C227BB /* Frameworks */,
 				B611AB7B243FFEDC00C227BB /* Resources */,
+				AE84AD5A597CBA77EFEB9228 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,14 +160,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A908D98D60068C8B6DF4018A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DW_ToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE84AD5A597CBA77EFEB9228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DW_ToolDemo/Pods-DW_ToolDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DW_ToolDemo/Pods-DW_ToolDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DW_ToolDemo/Pods-DW_ToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B611AB79243FFEDC00C227BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B611AB85243FFEDC00C227BB /* ViewController.swift in Sources */,
-				B611AB99243FFF1E00C227BB /* DW_OriginTool.swift in Sources */,
-				B611AB97243FFEF800C227BB /* TH_Tool.m in Sources */,
 				B611AB81243FFEDC00C227BB /* AppDelegate.swift in Sources */,
 				B611AB83243FFEDC00C227BB /* SceneDelegate.swift in Sources */,
 			);
@@ -301,6 +351,7 @@
 		};
 		B611AB92243FFEDD00C227BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8B806694EDCC94C08E3455 /* Pods-DW_ToolDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,6 +370,7 @@
 		};
 		B611AB93243FFEDD00C227BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBDB26CCA61A067BCCA29BC /* Pods-DW_ToolDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
